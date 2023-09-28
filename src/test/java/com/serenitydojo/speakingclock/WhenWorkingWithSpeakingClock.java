@@ -12,41 +12,41 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class WhenWorkingWithSpeakingClock {
-    SpeakingClockHours time0 = new SpeakingClockHours(0, " twelve.");
-    SpeakingClockHours time1 = new SpeakingClockHours(1, " one.");
-    SpeakingClockHours time2 = new SpeakingClockHours(2, " two.");
-    SpeakingClockHours time3 = new SpeakingClockHours(3, " three.");
-    SpeakingClockHours time4 = new SpeakingClockHours(4, " four.");
-    SpeakingClockHours time5 = new SpeakingClockHours(5, " five.");
-    SpeakingClockHours time6 = new SpeakingClockHours(6, " six.");
-    SpeakingClockHours time7 = new SpeakingClockHours(7, " seven.");
-    SpeakingClockHours time8 = new SpeakingClockHours(8, " eight.");
-    SpeakingClockHours time9 = new SpeakingClockHours(9, " nine.");
-    SpeakingClockHours time10 = new SpeakingClockHours(10, "ten.");
-    SpeakingClockHours time11 = new SpeakingClockHours(11, "eleven.");
-    SpeakingClockHours time12 = new SpeakingClockHours(12, "twelve.");
+    SpeakingClockHours time0 = new SpeakingClockHours(0);
+    SpeakingClockHours time1 = new SpeakingClockHours(1);
+    SpeakingClockHours time2 = new SpeakingClockHours(2);
+    SpeakingClockHours time3 = new SpeakingClockHours(3);
+    SpeakingClockHours time4 = new SpeakingClockHours(4);
+    SpeakingClockHours time5 = new SpeakingClockHours(5);
+    SpeakingClockHours time6 = new SpeakingClockHours(6);
+    SpeakingClockHours time7 = new SpeakingClockHours(7);
+    SpeakingClockHours time8 = new SpeakingClockHours(8);
+    SpeakingClockHours time9 = new SpeakingClockHours(9);
+    SpeakingClockHours time10 = new SpeakingClockHours(10);
+    SpeakingClockHours time11 = new SpeakingClockHours(11);
+    SpeakingClockHours time12 = new SpeakingClockHours(12);
 
-    SpeakingClockHours time13 = new SpeakingClockHours(13, "one.");
+    SpeakingClockHours time13 = new SpeakingClockHours(13);
 
-    SpeakingClockHours time14 = new SpeakingClockHours(14, "two.");
+    SpeakingClockHours time14 = new SpeakingClockHours(14);
 
-    SpeakingClockHours time15 = new SpeakingClockHours(15, "three.");
+    SpeakingClockHours time15 = new SpeakingClockHours(15);
 
-    SpeakingClockHours time16 = new SpeakingClockHours(16, "four.");
+    SpeakingClockHours time16 = new SpeakingClockHours(16);
 
-    SpeakingClockHours time17 = new SpeakingClockHours(17, "five.");
+    SpeakingClockHours time17 = new SpeakingClockHours(17);
 
-    SpeakingClockHours time18 = new SpeakingClockHours(18, "six.");
+    SpeakingClockHours time18 = new SpeakingClockHours(18);
 
-    SpeakingClockHours time19 = new SpeakingClockHours(19, "seven.");
+    SpeakingClockHours time19 = new SpeakingClockHours(19);
 
-    SpeakingClockHours time20 = new SpeakingClockHours(20, "eight.");
+    SpeakingClockHours time20 = new SpeakingClockHours(20);
 
-    SpeakingClockHours time21 = new SpeakingClockHours(21, "nine.");
+    SpeakingClockHours time21 = new SpeakingClockHours(21);
 
-    SpeakingClockHours time22 = new SpeakingClockHours(22, "ten.");
+    SpeakingClockHours time22 = new SpeakingClockHours(22);
 
-    SpeakingClockHours time23 = new SpeakingClockHours(23, "eleven.");
+    SpeakingClockHours time23 = new SpeakingClockHours(23);
 
     SpeakingClockMinutes minutes0 = new SpeakingClockMinutes(0, " It's ");
 
@@ -180,7 +180,7 @@ public class WhenWorkingWithSpeakingClock {
 
         assertThat(time6.expectedOutput()).isEqualTo(" six.");
 
-        assertThat(time12.expectedOutput()).isEqualTo("twelve.");
+        assertThat(time12.expectedOutput()).isEqualTo(" twelve.");
 
     }
 
