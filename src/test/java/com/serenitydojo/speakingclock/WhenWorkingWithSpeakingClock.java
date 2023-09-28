@@ -48,129 +48,129 @@ public class WhenWorkingWithSpeakingClock {
 
     SpeakingClockHours time23 = new SpeakingClockHours(23);
 
-    SpeakingClockMinutes minutes0 = new SpeakingClockMinutes(0, " It's ");
+    SpeakingClockMinutes minutes0 = new SpeakingClockMinutes(0);
 
-    SpeakingClockMinutes minutes1 = new SpeakingClockMinutes(1, " It's just after ");
+    SpeakingClockMinutes minutes1 = new SpeakingClockMinutes(1);
 
-    SpeakingClockMinutes minutes2 = new SpeakingClockMinutes(2, " It's just after ");
+    SpeakingClockMinutes minutes2 = new SpeakingClockMinutes(2);
 
-    SpeakingClockMinutes minutes3 = new SpeakingClockMinutes(3, " It's just after ");
+    SpeakingClockMinutes minutes3 = new SpeakingClockMinutes(3);
 
-    SpeakingClockMinutes minutes4 = new SpeakingClockMinutes(4, " It's just after ");
+    SpeakingClockMinutes minutes4 = new SpeakingClockMinutes(4);
 
-    SpeakingClockMinutes minutes5 = new SpeakingClockMinutes(5, " It's just after ");
+    SpeakingClockMinutes minutes5 = new SpeakingClockMinutes(5);
 
-    SpeakingClockMinutes minutes6 = new SpeakingClockMinutes(6, " It's just after ");
+    SpeakingClockMinutes minutes6 = new SpeakingClockMinutes(6);
 
-    SpeakingClockMinutes minutes7 = new SpeakingClockMinutes(7, " It's just after ");
+    SpeakingClockMinutes minutes7 = new SpeakingClockMinutes(7);
 
-    SpeakingClockMinutes minutes8 = new SpeakingClockMinutes(8, " It's just after ");
+    SpeakingClockMinutes minutes8 = new SpeakingClockMinutes(8);
 
-    SpeakingClockMinutes minutes9 = new SpeakingClockMinutes(9, " It's just after ");
+    SpeakingClockMinutes minutes9 = new SpeakingClockMinutes(9);
 
-    SpeakingClockMinutes minutes10 = new SpeakingClockMinutes(10, "It's just after ");
+    SpeakingClockMinutes minutes10 = new SpeakingClockMinutes(10);
 
-    SpeakingClockMinutes minutes11 = new SpeakingClockMinutes(11, "It's just after ");
+    SpeakingClockMinutes minutes11 = new SpeakingClockMinutes(11);
 
-    SpeakingClockMinutes minutes12 = new SpeakingClockMinutes(12, "It's just after ");
+    SpeakingClockMinutes minutes12 = new SpeakingClockMinutes(12);
 
-    SpeakingClockMinutes minutes13 = new SpeakingClockMinutes(13, "It's just after ");
+    SpeakingClockMinutes minutes13 = new SpeakingClockMinutes(13);
 
-    SpeakingClockMinutes minutes14 = new SpeakingClockMinutes(14, "It's just after ");
+    SpeakingClockMinutes minutes14 = new SpeakingClockMinutes(14);
 
-    SpeakingClockMinutes minutes15 = new SpeakingClockMinutes(15, "It's quarter past ");
+    SpeakingClockMinutes minutes15 = new SpeakingClockMinutes(15);
 
-    SpeakingClockMinutes minutes16 = new SpeakingClockMinutes(16, "It's just after quarter past ");
+    SpeakingClockMinutes minutes16 = new SpeakingClockMinutes(16);
 
-    SpeakingClockMinutes minutes17 = new SpeakingClockMinutes(17, "It's just after quarter past ");
+    SpeakingClockMinutes minutes17 = new SpeakingClockMinutes(17);
 
-    SpeakingClockMinutes minutes18 = new SpeakingClockMinutes(18, "It's just after quarter past ");
+    SpeakingClockMinutes minutes18 = new SpeakingClockMinutes(18);
 
-    SpeakingClockMinutes minutes19 = new SpeakingClockMinutes(19, "It's just after quarter past ");
+    SpeakingClockMinutes minutes19 = new SpeakingClockMinutes(19);
 
-    SpeakingClockMinutes minutes20 = new SpeakingClockMinutes(20, "It's just after quarter past ");
+    SpeakingClockMinutes minutes20 = new SpeakingClockMinutes(20);
 
-    SpeakingClockMinutes minutes21 = new SpeakingClockMinutes(21, "It's just after quarter past ");
+    SpeakingClockMinutes minutes21 = new SpeakingClockMinutes(21);
 
-    SpeakingClockMinutes minutes22 = new SpeakingClockMinutes(22, "It's just after quarter past ");
+    SpeakingClockMinutes minutes22 = new SpeakingClockMinutes(22);
 
-    SpeakingClockMinutes minutes23 = new SpeakingClockMinutes(23, "It's just after quarter past ");
+    SpeakingClockMinutes minutes23 = new SpeakingClockMinutes(23);
 
-    SpeakingClockMinutes minutes24 = new SpeakingClockMinutes(24, "It's just after quarter past ");
+    SpeakingClockMinutes minutes24 = new SpeakingClockMinutes(24);
 
-    SpeakingClockMinutes minutes25 = new SpeakingClockMinutes(25, "It's just after quarter past ");
+    SpeakingClockMinutes minutes25 = new SpeakingClockMinutes(25);
 
-    SpeakingClockMinutes minutes26 = new SpeakingClockMinutes(26, "It's just after quarter past ");
+    SpeakingClockMinutes minutes26 = new SpeakingClockMinutes(26);
 
-    SpeakingClockMinutes minutes27 = new SpeakingClockMinutes(27, "It's just after quarter past ");
+    SpeakingClockMinutes minutes27 = new SpeakingClockMinutes(27);
 
-    SpeakingClockMinutes minutes28 = new SpeakingClockMinutes(28, "It's just after quarter past ");
+    SpeakingClockMinutes minutes28 = new SpeakingClockMinutes(28);
 
-    SpeakingClockMinutes minutes29 = new SpeakingClockMinutes(29, "It's just after quarter past ");
+    SpeakingClockMinutes minutes29 = new SpeakingClockMinutes(29);
 
-    SpeakingClockMinutes minutes30 = new SpeakingClockMinutes(30, "It's half past ");
+    SpeakingClockMinutes minutes30 = new SpeakingClockMinutes(30);
 
-    SpeakingClockMinutes minutes31 = new SpeakingClockMinutes(31, "It's just after half past ");
+    SpeakingClockMinutes minutes31 = new SpeakingClockMinutes(31);
 
-    SpeakingClockMinutes minutes32 = new SpeakingClockMinutes(32, "It's just after half past ");
+    SpeakingClockMinutes minutes32 = new SpeakingClockMinutes(32);
 
-    SpeakingClockMinutes minutes33 = new SpeakingClockMinutes(33, "It's just after half past ");
+    SpeakingClockMinutes minutes33 = new SpeakingClockMinutes(33);
 
-    SpeakingClockMinutes minutes34 = new SpeakingClockMinutes(34, "It's just after half past ");
+    SpeakingClockMinutes minutes34 = new SpeakingClockMinutes(34);
 
-    SpeakingClockMinutes minutes35 = new SpeakingClockMinutes(35, "It's just after half past ");
+    SpeakingClockMinutes minutes35 = new SpeakingClockMinutes(35);
 
-    SpeakingClockMinutes minutes36 = new SpeakingClockMinutes(36, "It's just after half past ");
-
-
-    SpeakingClockMinutes minutes37 = new SpeakingClockMinutes(37, "It's just after half past ");
+    SpeakingClockMinutes minutes36 = new SpeakingClockMinutes(36);
 
 
-    SpeakingClockMinutes minutes38 = new SpeakingClockMinutes(38, "It's just after half past ");
-
-    SpeakingClockMinutes minutes39 = new SpeakingClockMinutes(39, "It's just after half past ");
+    SpeakingClockMinutes minutes37 = new SpeakingClockMinutes(37);
 
 
-    SpeakingClockMinutes minutes40 = new SpeakingClockMinutes(40, "It's just after half past ");
+    SpeakingClockMinutes minutes38 = new SpeakingClockMinutes(38);
+
+    SpeakingClockMinutes minutes39 = new SpeakingClockMinutes(39);
 
 
-    SpeakingClockMinutes minutes41 = new SpeakingClockMinutes(41, "It's just after half past ");
+    SpeakingClockMinutes minutes40 = new SpeakingClockMinutes(40);
 
-    SpeakingClockMinutes minutes42 = new SpeakingClockMinutes(42, "It's just after half past ");
 
-    SpeakingClockMinutes minutes43 = new SpeakingClockMinutes(43, "It's just after half past ");
+    SpeakingClockMinutes minutes41 = new SpeakingClockMinutes(41);
 
-    SpeakingClockMinutes minutes44 = new SpeakingClockMinutes(44, "It's just after half past ");
+    SpeakingClockMinutes minutes42 = new SpeakingClockMinutes(42);
 
-    SpeakingClockMinutes minutes45 = new SpeakingClockMinutes(45, "It's quarter to ");
+    SpeakingClockMinutes minutes43 = new SpeakingClockMinutes(43);
 
-    SpeakingClockMinutes minutes46 = new SpeakingClockMinutes(46, "It's just after quarter to ");
+    SpeakingClockMinutes minutes44 = new SpeakingClockMinutes(44);
 
-    SpeakingClockMinutes minutes47 = new SpeakingClockMinutes(47, "It's just after quarter to ");
+    SpeakingClockMinutes minutes45 = new SpeakingClockMinutes(45);
 
-    SpeakingClockMinutes minutes48 = new SpeakingClockMinutes(48, "It's just after quarter to ");
+    SpeakingClockMinutes minutes46 = new SpeakingClockMinutes(46);
 
-    SpeakingClockMinutes minutes49 = new SpeakingClockMinutes(49, "It's just after quarter to ");
+    SpeakingClockMinutes minutes47 = new SpeakingClockMinutes(47);
 
-    SpeakingClockMinutes minutes50 = new SpeakingClockMinutes(50, "It's just after quarter to ");
+    SpeakingClockMinutes minutes48 = new SpeakingClockMinutes(48);
 
-    SpeakingClockMinutes minutes51 = new SpeakingClockMinutes(51, "It's nearly ");
+    SpeakingClockMinutes minutes49 = new SpeakingClockMinutes(49);
 
-    SpeakingClockMinutes minutes52 = new SpeakingClockMinutes(52, "It's nearly ");
+    SpeakingClockMinutes minutes50 = new SpeakingClockMinutes(50);
 
-    SpeakingClockMinutes minutes53 = new SpeakingClockMinutes(53, "It's nearly ");
+    SpeakingClockMinutes minutes51 = new SpeakingClockMinutes(51);
 
-    SpeakingClockMinutes minutes54 = new SpeakingClockMinutes(54, "It's nearly ");
+    SpeakingClockMinutes minutes52 = new SpeakingClockMinutes(52);
 
-    SpeakingClockMinutes minutes55 = new SpeakingClockMinutes(55, "It's nearly ");
+    SpeakingClockMinutes minutes53 = new SpeakingClockMinutes(53);
 
-    SpeakingClockMinutes minutes56 = new SpeakingClockMinutes(56, "It's nearly ");
+    SpeakingClockMinutes minutes54 = new SpeakingClockMinutes(54);
 
-    SpeakingClockMinutes minutes57 = new SpeakingClockMinutes(57, "It's nearly ");
+    SpeakingClockMinutes minutes55 = new SpeakingClockMinutes(55);
 
-    SpeakingClockMinutes minutes58 = new SpeakingClockMinutes(58, "It's nearly ");
+    SpeakingClockMinutes minutes56 = new SpeakingClockMinutes(56);
 
-    SpeakingClockMinutes minutes59 = new SpeakingClockMinutes(59, "It's nearly ");
+    SpeakingClockMinutes minutes57 = new SpeakingClockMinutes(57);
+
+    SpeakingClockMinutes minutes58 = new SpeakingClockMinutes(58);
+
+    SpeakingClockMinutes minutes59 = new SpeakingClockMinutes(59);
 
 
     @Test
@@ -187,9 +187,9 @@ public class WhenWorkingWithSpeakingClock {
     @Test
     public void whenCreatingASpeakingClockMinutesMessage() {
 
-        assertThat(minutes0.expectedOutput()).isEqualTo(" It's ");
+        assertThat(minutes0.expectedOutput()).isEqualTo("It's ");
 
-        assertThat(minutes6.expectedOutput()).isEqualTo(" It's just after ");
+        assertThat(minutes6.expectedOutput()).isEqualTo("It's just after ");
 
         assertThat(minutes59.expectedOutput()).isEqualTo("It's nearly ");
 

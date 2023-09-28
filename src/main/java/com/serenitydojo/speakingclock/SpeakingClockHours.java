@@ -43,10 +43,6 @@ public class SpeakingClockHours {
                 this.expectedOutput = "twelve";
             }
 
-            
-            
-              
-    
             default -> {
               throw new IllegalArgumentException();
             }
