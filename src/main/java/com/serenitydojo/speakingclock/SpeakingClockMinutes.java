@@ -9,7 +9,8 @@ public class SpeakingClockMinutes {
         switch (minutes) {
             case 0  -> {
                 this.expectedOutput = "It's ";
-            }case 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 -> {
+            }
+            case 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 -> {
                 this.expectedOutput = "It's just after ";
             }
             case 15 -> {
@@ -41,6 +42,13 @@ public class SpeakingClockMinutes {
 
     public String expectedOutput() {
         return expectedOutput;
+    }
+
+    @Override
+    public String toString() {
+        return "SpeakingClockMinutes{" +
+                "expectedOutput='" + expectedOutput + '\'' +
+                '}';
     }
 }
 

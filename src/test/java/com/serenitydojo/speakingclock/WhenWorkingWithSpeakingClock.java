@@ -196,9 +196,9 @@ public class WhenWorkingWithSpeakingClock {
     }
 
     @Test
-    public void knowTheCurrentSystemTime() {
+    public void findTheCurrentSystemTime() {
         LocalTime systemTime = LocalTime.now();
-        // System.out.println(systemTime);
+        //System.out.println(systemTime);
 
         Assertions.assertThat(systemTime).isNotNull();
 
@@ -238,9 +238,9 @@ public class WhenWorkingWithSpeakingClock {
         theTime.add(time23);
 
 
-        //  System.out.println(tellHourTime);
+    //      System.out.println(tellHourTime);
 
-        //  System.out.println(theTime.get(tellHourTime));
+    //     System.out.println(theTime.get(tellHourTime));
 
         Assertions.assertThat(tellHourTime).isStrictlyBetween(0, 25);
     }
@@ -279,9 +279,9 @@ public class WhenWorkingWithSpeakingClock {
         theTime.add(time23);
 
 
-        //  System.out.println(fourHoursAgo);
+    //    System.out.println(fourHoursAgo);
 
-        //  System.out.println(theTime.get(hourTimeFoursAgo));
+    //    System.out.println(theTime.get(hourTimeFoursAgo));
 
         Assertions.assertThat(fourHoursAgo).isBefore(localTime);
     }
@@ -300,7 +300,7 @@ public class WhenWorkingWithSpeakingClock {
     public void tellTheMinutesTime() {
         LocalTime localTime = LocalTime.now();
         int tellTheMinutesTime = localTime.getMinute();
-        // System.out.println(tellTheMinutesTime);
+    //    System.out.println(tellTheMinutesTime);
 
         Assertions.assertThat(tellTheMinutesTime).isStrictlyBetween(0, 60);
     }
@@ -375,7 +375,7 @@ public class WhenWorkingWithSpeakingClock {
 
         //   System.out.println(tellTheMinutesTime);
 
-        // System.out.println(minutesTime.get(tellTheMinutesTime));
+      //  System.out.println(minutesTime.get(tellTheMinutesTime));
     }
 
     @Test
@@ -475,7 +475,7 @@ public class WhenWorkingWithSpeakingClock {
         minutesTime.add(minutes58);
         minutesTime.add(minutes59);
 
-        // Getting message based on the local time.
+        //Getting message based on the local time.
 
         String startOfTimeMessage = String.valueOf((minutesTime.get(tellTheMinutesTime)));
 
@@ -483,9 +483,8 @@ public class WhenWorkingWithSpeakingClock {
 
         // Formatting message to make it readable.
 
-        String formattedTimeMessage = (startOfTimeMessage.substring(49).replace("]", "") + endTimeMessage.substring(42).replace("]", ""));
-
-        //System.out.println(formattedTimeMessage);
+        String formattedTimeMessage = (startOfTimeMessage.substring(37).replace("]", "").replace("}", "").replace("'","")+ endTimeMessage.substring(37).replace("]", "").replace("'","").replace("}", "").replace("'","")) +".";
+        System.out.println(formattedTimeMessage);
 
         Assertions.assertThat(formattedTimeMessage).isNotEmpty();
 
@@ -608,13 +607,7 @@ public class WhenWorkingWithSpeakingClock {
 
         String endTimeMessage = String.valueOf((theTime.get(timeCloserToNextHour)));
 
-        // Formatting message to make it readable.
-
-        String formattedTimeMessage = (startOfTimeMessage.substring(48).replace("]", "") + endTimeMessage.substring(43).replace("]", ""));
-
-        System.out.println(formattedTimeMessage);
-
-        Assertions.assertThat(formattedTimeMessage).isNotEmpty();
+        Assertions.assertThat(endTimeMessage).isNotEmpty();
 
     }
 
