@@ -1,17 +1,21 @@
 package com.serenitydojo.speakingclock;
 
+import java.time.LocalTime;
+
 public class SpeakingClock {
     private final int hour;
     private final int minutes;
     private String expectedOutput;
 
-    public String getExpectedOutPut(){
+    public String getExpectedOutPut() {
         return expectedOutput;
     }
+
     public SpeakingClock(int hour, int minutes) {
         this.hour = hour;
         this.minutes = minutes;
         expectedOutput = null;
+        // expectedOutput is the written time.
 
 
         switch (minutes) {
@@ -80,8 +84,14 @@ public class SpeakingClock {
             case 11, 23 -> {
                 this.expectedOutput += "eleven";
             }
-            case 0, 12, 24 -> {
+            case 24 -> {
                 this.expectedOutput += "twelve";
+            }
+            case 12 -> {
+                this.expectedOutput += "midday";
+            }
+            case 0 -> {
+                this.expectedOutput += "midnight";
             }
 
             default -> {
@@ -89,5 +99,13 @@ public class SpeakingClock {
             }
 
         }
+
+        LocalTime localTimeNow = LocalTime.now();
+        int minute = localTimeNow.getMinute();
+
+        if (minute > 44) {
+            hour = hour + 1;
+        }
     }
+
 }
