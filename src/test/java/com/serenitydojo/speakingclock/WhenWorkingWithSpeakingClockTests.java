@@ -14,13 +14,13 @@ public class WhenWorkingWithSpeakingClockTests {
     @Test
     public void checkingTheSpeakingClock() {
 
-        assertThat(new SpeakingClock(00, 00).getExpectedOutPut()).isEqualTo("It's midnight");
+        assertThat(new SpeakingClock(0, 0).getExpectedOutPut()).isEqualTo("It's midnight");
 
-        assertThat(new SpeakingClock(1, 00).getExpectedOutPut()).isEqualTo("It's one");
+        assertThat(new SpeakingClock(1, 0).getExpectedOutPut()).isEqualTo("It's one");
 
         assertThat(new SpeakingClock(9, 30).getExpectedOutPut()).isEqualTo("It's half past nine");
 
-        assertThat(new SpeakingClock(12, 00).getExpectedOutPut()).isEqualTo("It's midday");
+        assertThat(new SpeakingClock(12, 0).getExpectedOutPut()).isEqualTo("It's midday");
 
     }
 
@@ -76,9 +76,9 @@ public class WhenWorkingWithSpeakingClockTests {
     @Test
     public void whenTimeIsCloserToNextHour() {
 
-        assertThat(new SpeakingClock(11, 51).getExpectedOutPut()).isEqualTo("It's nearly midday ");
+        assertThat(new SpeakingClock(11, 51).getExpectedOutPut()).isEqualTo("It's nearly midday");
 
-        assertThat(new SpeakingClock(15, 45).getExpectedOutPut()).isEqualTo("It's quarter to four ");
+        assertThat(new SpeakingClock(15, 45).getExpectedOutPut()).isEqualTo("It's quarter to four");
 
     }
     }

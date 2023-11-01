@@ -17,6 +17,15 @@ public class SpeakingClock {
         expectedOutput = null;
         // expectedOutput is the written time.
 
+        LocalTime localTimeNow = LocalTime.now();
+
+        if (minutes >= 0 && minutes <= 44) {
+            hour = hour;
+        } else if (minutes > 44) {
+            hour = hour + 1;
+        } else if (minutes == 60) {
+            hour = hour;
+        }
 
         switch (minutes) {
             case 0 -> {
@@ -100,12 +109,10 @@ public class SpeakingClock {
 
         }
 
-        LocalTime localTimeNow = LocalTime.now();
-        int minute = localTimeNow.getMinute();
 
-        if (minute > 44) {
-            hour = hour + 1;
-        }
+
     }
 
 }
+
+
