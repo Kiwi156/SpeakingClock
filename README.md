@@ -11,7 +11,7 @@ As part of the challenge the expected output for the time was required in a conv
 
 # Techniques Learned 
 
-In this exercise I practised Test Drivern Design (TDD) and writing assertions using the Assert j library. I like using the Assert j library because when a test fails there are details to help me troulble shoot and resolve the failure. 
+In this exercise I practised Test Drivern Design (TDD) and writing assertions using the Assert j library. I like using the Assert j library because when a test fails there are details to help me trouble shoot and resolve the failure. 
 
 I also practised committing and pushing my code to Git Hub. This helped me get used to running basic commands from the terminal to do version control. 
 
