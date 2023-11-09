@@ -17,5 +17,7 @@ In this exercise I practised Test Drivern Design (TDD) and writing assertions us
 
 I also practised committing and pushing my code to Git Hub. This helped me get used to running basic commands from the terminal to do version control. 
 
-Working through a refactor cycle with a Coach from the Expansion programme helped to improve this code. As part of the refactor a Java Switch Statement was used to select the Hour or Minutes time in conversational format. A Java if..else statement was used for when the minutes time was closer to the next hour.    
+Working through a refactor cycle with a Coach from the Expansion programme helped to improve this code. As part of the refactor a Java Switch Statement was used to select the Hour or Minutes time in conversational format. 
+
+I used a Java if..else statement to tell the time relative to the hour that was closer. First I wrote the test including an assertion and ran the test that failed and then I implemented the code. Then I re-ran the test so that it went green and checked that all of the other tests still passed.       
 
