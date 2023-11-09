@@ -2,6 +2,8 @@
 
 This is a Java coding challenge I worked on. This was part of a Coding for Testers course in the Serenity Dojo Expansion programme. 
 
+# Goal
+
 The goal of this challenge was to design "a Conversational Clock - a cluster of objects, capable of telling the current system time in a conversational format."
 
 As part of the challenge the expected output for the time was required in a conversational format, for example: 
