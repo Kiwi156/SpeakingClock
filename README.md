@@ -13,7 +13,7 @@ As part of the challenge the expected output for the time was required in a conv
 
 # Techniques Learned 
 
-In this exercise I wrote assertions using the **Assert j library**. I like using the Assert j library because when a test fails there are details to help me trouble shoot and resolve the failure. 
+In this exercise I wrote assertions using the **Assert j library**. I like using the Assert j library because when a test fails there are details to help trouble shoot and resolve the failure. 
 
 I also practised committing and pushing my code to **Git Hub**. This helped me get used to running basic commands from the terminal to do version control. 
 
@@ -21,5 +21,5 @@ Working through a refactor cycle with a Coach from the Expansion programme helpe
 
 I used a **Java if..else statement** to tell the time relative to the hour that was closer. 
 
-In this exercise I practised **Test Drivern Design (TDD)**. First I wrote the test including an assertion and ran the test that failed and then I implemented the code. Then I re-ran the test so that it went green and checked that all of the other tests still passed.       
+In this exercise I practised **Test Drivern Design (TDD)**. First I wrote the test including an assertion and ran the test that failed and then I implemented the code. Then I re-ran the test so that green tick was displayed and checked that all of the other tests still passed.       
 
