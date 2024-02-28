@@ -21,5 +21,5 @@ Working through a refactor cycle with a Coach from the Expansion programme helpe
 
 I used a **Java if..else statement** to tell the time relative to the hour that was closer. 
 
-In this exercise I practised **Test Drivern Design (TDD)**. First I wrote the test including an assertion and ran the test that failed and then I implemented the code. Then I re-ran the test so that green tick was displayed and checked that all of the other tests still passed.       
+In this exercise I practised **Test Drivern Design (TDD)**. First I wrote the test including an assertion and ran the test that failed and then I implemented the code. Then I re-ran the test so that a green tick was displayed and checked that all of the other tests still passed.       
 
